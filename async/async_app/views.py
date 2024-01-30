@@ -8,7 +8,7 @@ from rest_framework.response import Response
 from rest_framework.decorators import api_view
 
 executor = futures.ThreadPoolExecutor(max_workers=1)
-ServerToken = "qwertyuiop[]=-0987654321!@#$%^"
+ServerToken = "qwertyuioplkjhgfdsa0987654321"
 url = "http://127.0.0.1:8080/rocket_flights/finish_calculating"
 
 def calculate_price(req_body):
